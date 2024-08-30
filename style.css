@@ -1,0 +1,229 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+/*--------------------------- search ----------------------*/
+
+.btn-outline-danger {
+    margin-left: 10px;
+}
+
+.form-control {
+    border-radius: 2rem;
+}
+
+/*------------------- buttons ------------------*/
+
+.buttons {
+    display: flex;
+    gap: 10px;
+    margin-right: 15px;
+    
+}
+
+
+
+/*------------------ search option ------------------*/
+
+.more {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+}
+
+.more a {
+    color: white;
+    text-decoration: none;
+}
+
+.list1,
+.list2,
+.list3,
+.list4,
+.list5,
+.list6,
+.list7,
+.list8,
+.list9,
+.list10 {
+    height: 30vh;
+    width: 30vh;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.list1 {
+    background-color: rgb(250, 120, 142);
+}
+
+.list2 {
+    background-color:#c72344;
+}
+
+.list3 {
+    background-color: #a939f9;
+}
+
+.list4 {
+    background-color: #ce9e7c;
+}
+
+.list5 {
+    background-color: #c55a5a;
+}
+
+.list6 {
+    background-color: rgb(210, 97, 154);
+}
+
+.list7 {
+    background-color: #617744;
+}
+
+.list8 {
+    background-color: #d8bb5a;
+}
+
+.list9 {
+    background-color: #e78834;
+}
+
+.list10 {
+    background-color: rgb(53, 211, 211);
+}
+
+
+
+
+.list1:hover,
+.list2:hover,
+.list3:hover,
+.list4:hover,
+.list5:hover,
+.list6:hover,
+.list7:hover,
+.list8:hover,
+.list9:hover,
+.list10:hover {
+    transform: scale(1.05);
+}
+
+
+
+.list1 a:hover,
+.list2 a:hover,
+.list3 a:hover,
+.list4 a:hover,
+.list5 a:hover,
+.list6 a:hover,
+.list7 a:hover,
+.list8 a:hover,
+.list9 a:hover,
+.list10 a:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+
+
+.d-flex{
+    margin-right:10px;
+    }
+
+
+/*---------------------------- footer-section -------------------------*/
+
+.footer {
+    margin-top: 30px;
+}
+
+
+
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px 0;
+
+}
+
+
+.links a {
+    display: flex;
+    color: white;
+    text-decoration: none;
+}
+
+
+
+.links a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+/*----------------------------- social media icons section ----------------------------*/
+
+
+.social-icons {
+    font-size: 12px;
+}
+
+
+.social-icons a {
+    text-decoration: none;
+    margin-right: 15px;
+    font-size: 30px;
+    color: #fff;
+    display: inline-block;
+    transition: transform 0.5s;
+}
+
+
+.social-icons a:hover {
+    transform: translateY(-5px);
+}
+
+
+.social-icons a i:hover {
+    color: #ff004f;
+}
+
+
+/* -------------------- media query -----------------------*/
+
+
+
+@media (max-width: 600px) {
+    nav .logo {
+        font-size: 10px;
+        margin-left: 8px;
+    }
+
+    nav ul {
+        width: 100%;
+    }
+
+    footer{
+        font-size: 12px;
+        gap: 5px;
+    }
+
+
+    footer h5{
+        font-size: 16px;
+    }
+
+    footer i{
+        font-size: 14px;
+    }
+}
+
